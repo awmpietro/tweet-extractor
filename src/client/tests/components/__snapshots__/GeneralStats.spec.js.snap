@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneralStats snapshot renders 1`] = `
+Array [
+  <div
+    className="card-title"
+  >
+    <h4>
+      General User Stats
+    </h4>
+  </div>,
+  <table
+    className="table table-bordered table-striped"
+  >
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Quantity
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Profile Use Background Image
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Has Geo Enabled
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Is Verified
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Has Extended Profile
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Is Default Profile
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Has Default Profile Image
+        </td>
+        <td />
+      </tr>
+      <tr>
+        <td>
+          Notifications Enabled
+        </td>
+        <td />
+      </tr>
+    </tbody>
+  </table>,
+]
+`;

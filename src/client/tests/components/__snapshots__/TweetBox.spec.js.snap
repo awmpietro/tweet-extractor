@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TweetBox snapshot renders 1`] = `
+<div
+  className="bootstrap snippets col-md-4"
+>
+  <div
+    className="widget panel"
+  >
+    <div
+      className="panel-body"
+    >
+      <ul
+        className="list-table"
+      >
+        <li
+          style={
+            Object {
+              "width": 60,
+            }
+          }
+        >
+          <img
+            alt=""
+            className="img-circle mb-2"
+            height="55"
+            width="55"
+          />
+        </li>
+        <li
+          className="text-left"
+        >
+          <h4
+            className="semibold ellipsis nm"
+          />
+          <p
+            className="text-muted nm"
+          >
+             followers
+          </p>
+        </li>
+        <li
+          className="text-right"
+        >
+          <button
+            className="btn btn-sm btn-info"
+            onClick={[Function]}
+            type="button"
+          >
+            See
+          </button>
+        </li>
+      </ul>
+    </div>
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item"
+      >
+        <p
+          className="nm"
+        />
+        <small
+          className="text-muted"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -65,7 +65,6 @@ const statistics = tweets => {
                 counter.hashtags[hashtag.text] = 1;
             }
         }
-
     }
     return counter
 }

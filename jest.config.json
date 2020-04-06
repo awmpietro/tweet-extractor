@@ -1,0 +1,7 @@
+{
+    "testRegex": "((\\.|/*.)(spec))\\.js?$",
+    "transform": {
+        "^.+\\.js$": "babel-jest",
+        ".+\\.(css|styl|less|sass|scss)$": "jest-transform-css"
+    }
+}

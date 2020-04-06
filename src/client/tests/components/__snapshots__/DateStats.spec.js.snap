@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateStats snapshot renders 1`] = `
+Array [
+  <div
+    className="card-title"
+  >
+    <h4>
+      Tweets by date
+    </h4>
+  </div>,
+  <table
+    className="table table-bordered table-striped"
+  >
+    <thead>
+      <tr>
+        <th>
+          Date
+        </th>
+        <th>
+          Quantity
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>,
+]
+`;

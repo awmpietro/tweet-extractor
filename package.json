@@ -8,9 +8,12 @@
     "start:server": "node ./src/server/server.js",
     "start:client": "react-scripts start",
     "start": "concurrently npm:start:client npm:start:server",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
+    "@babel/runtime": "^7.9.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
@@ -29,8 +32,12 @@
     "twit": "^2.2.11"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
     "@types/react": "^16.9.11",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.2.6",
     "concurrently": "^5.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -40,8 +47,11 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^25.2.7",
+    "jest-transform-css": "^2.0.0",
     "prettier": "^2.0.3",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^3.4.0",
+    "react-test-renderer": "^16.13.1"
   },
   "browserslist": {
     "production": [

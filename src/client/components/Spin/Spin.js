@@ -1,5 +1,5 @@
 import React from 'react';
-import './spin.css'
+import './spin.css';
 
 export default () => {
     return (
