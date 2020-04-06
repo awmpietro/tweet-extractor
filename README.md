@@ -10,6 +10,9 @@
 - Clone:
 `git clone https://github.com/awmpietro/tweet-extractor.git`
 
+- cd project folder
+`cd tweet-extractor`
+
 - Install dependencies:
 `npm install`
 
