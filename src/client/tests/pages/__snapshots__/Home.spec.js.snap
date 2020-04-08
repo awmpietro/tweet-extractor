@@ -80,6 +80,7 @@ exports[`Home snapshot renders 1`] = `
                 >
                   <button
                     className="btn btn-lg btn-primary"
+                    id="search-btn"
                     type="submit"
                   >
                     <svg
@@ -100,7 +101,8 @@ exports[`Home snapshot renders 1`] = `
                         style={Object {}}
                       />
                     </svg>
-                     Search
+                     
+                    Search
                   </button>
                 </div>
               </div>

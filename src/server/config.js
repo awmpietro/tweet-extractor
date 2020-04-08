@@ -5,8 +5,8 @@ const TwitService = new Twit({
   consumer_secret: process.env.API_SECRET,
   access_token: process.env.ACCESS_TOKEN,
   access_token_secret: process.env.ACCESS_TOKEN_SECRET,
-  timeout_ms: 60*1000,
-  strictSSL: true
+  timeout_ms: 60 * 1000,
+  strictSSL: true,
 });
 
-module.exports = {TwitService};
+module.exports = { TwitService };
