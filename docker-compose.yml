@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+  default:
+    image: tweet-extractor
+    ports:
+      - "3000:3000"
+      - "4000:4000"
+
