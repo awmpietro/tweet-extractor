@@ -10,6 +10,9 @@
 - Clone 'containerized' branch:
 `git clone -b containerized https://github.com/awmpietro/tweet-extractor.git`
 
+- Build image:
+`docker build -t tweet-extractor .`
+
 - Run docker-compose:
 `docker-compose up`
 
