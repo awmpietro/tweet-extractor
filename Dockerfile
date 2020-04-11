@@ -14,4 +14,10 @@ COPY . .
 
 ENTRYPOINT ["tini", "--"]
 
+ENV API_KEY=
+ENV API_SECRET=
+ENV ACCESS_TOKEN=
+ENV ACCESS_TOKEN_SECRET=
+ENV REACT_APP_API_URL=http://localhost:4000/api
+
 CMD ["npm", "start"]

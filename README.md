@@ -10,16 +10,13 @@
 - Clone 'containerized' branch:
 `git clone -b containerized https://github.com/awmpietro/tweet-extractor.git`
 
-- Create a .env file in the root of project with the contents:
+- Update **Dockerfile** from line 17 to line 20 to include your twitter api credentials:
 ```
-#Server
-API_KEY = YOUR_TWITTER_API_KEY
-API_SECRET = YOUR_TWITTER_API_SECRET
-ACCESS_TOKEN = YOUR_TWITTER_ACCESS_TOKEN
-ACCESS_TOKEN_SECRET = YOUR_TWITTER_ACCESS_TOKEN_SECRET
+ENV API_KEY = YOUR_TWITTER_API_KEY
+ENV API_SECRET = YOUR_TWITTER_API_SECRET
+ENVACCESS_TOKEN = YOUR_TWITTER_ACCESS_TOKEN
+ENV ACCESS_TOKEN_SECRET = YOUR_TWITTER_ACCESS_TOKEN_SECRET
 
-#Client
-REACT_APP_API_URL = http://localhost:4000/api
 ```
 
 - Build image:
