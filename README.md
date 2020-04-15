@@ -1,8 +1,8 @@
-# Tweet Extractor Coding Test
+# Tweet Extractor Sample Application
 
 ## Requirements (Tested on Mac)
 
-- Docker 19.03.08
+- Docker 18
 - npm 1.25.4
 
 ## How To Run step by step
@@ -36,9 +36,3 @@ After you submit a search, you can export data in a CSV file by clicking **Expor
 ## Statistics
 
 After you submit a search, a new tab called **Statistics** will be enabled.
-
-## Considerations
-
-- The test requirements did not specified what kind of inputs an user could do, so i considered a simple search by keywords returning 100 inputs;
-- Consider i'm using standard (free) Twitter API access, which is very limited;
-- Requirements also did not specified what data should be in statistics and what data should be extracted in CSV, so i considered the data by myself.
